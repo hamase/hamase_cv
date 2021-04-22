@@ -32,7 +32,7 @@ export default class WorkPage extends Component {
             </div>
             <Col className="info_box d-md-flex justify-content-center">
               <div className="info_box-inner d-md-flex align-content-start">
-                {this.state.titles.length == 0
+                {this.state.titles.length === 0
                   ? "Loading ..."
                   : this.state.titles.map((title, i) => (
                       <Col

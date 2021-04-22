@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaGithub, FaLinkedin, FaSkype } from "react-icons/fa";
 import { FiGitlab } from "react-icons/fi";

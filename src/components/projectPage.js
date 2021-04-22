@@ -34,7 +34,7 @@ export default class ProjectPage extends Component {
             </div>
             <Col className="info_box d-flex">
               <div className="info_box-inner">
-                {this.state.titles.length == 0
+                {this.state.titles.length === 0
                   ? "Loading ..."
                   : this.state.titles.map((title, i) => (
                       <Col
