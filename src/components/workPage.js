@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import logo from '../assets/img/logo.png'
 import axios from "axios";
 
 export default class WorkPage extends Component {
@@ -25,14 +24,14 @@ export default class WorkPage extends Component {
       <Container fluid>
         <Row>
           <Col md={12} className="right_box">
-            <div className="right_box_title">
+            <div className="right_box-title">
               <h2>
                 <FontAwesomeIcon icon={faBriefcase} />
               </h2>
               <h1>Work Experience</h1>
             </div>
             <Col className="info_box d-md-flex justify-content-center">
-              <div className="info_box__inner d-md-flex align-content-start">
+              <div className="info_box-inner d-md-flex align-content-start">
                 {this.state.titles.length == 0
                   ? "Loading ..."
                   : this.state.titles.map((title, i) => (
@@ -40,7 +39,7 @@ export default class WorkPage extends Component {
                         xs={12}
                         sm={12}
                         md={10}
-                        className="info_box--desc info_box--card"
+                        className="info_box-inner-desc info_box-inner-card"
                       >
                         <h2>{title.woTitle}</h2>
                         <h2>{title.woName}</h2>

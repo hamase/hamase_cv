@@ -4,7 +4,6 @@ import { faFileCode } from "@fortawesome/free-solid-svg-icons";
 import { Container, Row, Col } from "react-bootstrap";
 import { BiLink } from "react-icons/bi";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import logo from '../assets/img/logo.png'
 import axios from "axios";
 
 export default class ProjectPage extends Component {
@@ -27,21 +26,21 @@ export default class ProjectPage extends Component {
       <Container fluid>
         <Row>
           <Col md={12} className="right_box">
-            <div className="right_box_title">
+            <div className="right_box-title">
               <h2>
                 <FontAwesomeIcon icon={faFileCode} />
               </h2>
               <h1>Projects</h1>
             </div>
             <Col className="info_box d-flex">
-              <div className="info_box__inner">
+              <div className="info_box-inner">
                 {this.state.titles.length == 0
                   ? "Loading ..."
                   : this.state.titles.map((title, i) => (
                       <Col
                         xs={12}
                         md={6}
-                        className="info_box--desc info_box--card"
+                        className="info_box-inner-desc info_box-inner-card"
                       >
                         <h2>
                           {title.prjName}

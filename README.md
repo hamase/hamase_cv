@@ -8,7 +8,6 @@ Use the package manager [npm](https://www.npmjs.com/get-npm) to install CVDashbo
 
 ```bash
 $ npm install
-$ npm i json-server
 ```
 
 ## Usage

@@ -1,8 +1,6 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./assets/scss/index.scss";
-import "./assets/scss/infoBox.scss";
 
 //Import Components
 import LeftMenu from "./components/leftMenu";
@@ -17,10 +15,10 @@ function App() {
     <BrowserRouter>
       <Container fluid>
         <Row>
-          <Col md={2} lg={2} xl={1}>
+          <Col xs={12} md={2} lg={2} xl={1}>
             <LeftMenu />
           </Col>
-          <Col md={10} lg={10} xl={11}>
+          <Col xs={12} md={10} lg={10} xl={11}>
             {/* route to pages */}
             <Switch>
               <Route path="/" component={InfoPage} exact />

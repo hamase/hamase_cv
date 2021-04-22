@@ -86,24 +86,22 @@
 					"id": 1,
 					"sklTitle": "JS Framework/Library",
 					"lists": [
-						{ "name": "ReactJs, " },
-						{ "name": "React Native, " },
-						{ "name": "JavaScript, " },
-						{ "name": "JSX, " },
-						{ "name": "JSF, " },
-						{ "name": "ExtJs" }
+						{ "name": "ReactJs " },
+						{ "name": "React Native " },
+						{ "name": "JavaScript " },
+						{ "name": "Nextjs " }
 					]
 				},
 				{
 					"id": 2,
 					"sklTitle": "CSS Framework",
 					"lists": [
-						{ "name": "CSS3, " },
-						{ "name": "Sass, " },
-						{ "name": "Less, " },
-						{ "name": "Bootstrap, " },
-						{ "name": "Foundation, " },
-						{ "name": "Materialize, " },
+						{ "name": "CSS3 " },
+						{ "name": "Sass " },
+						{ "name": "Less " },
+						{ "name": "Bootstrap " },
+						{ "name": "Foundation " },
+						{ "name": "Materialize " },
 						{ "name": "Antd" }
 					]
 				},
@@ -111,17 +109,17 @@
 					"id": 3,
 					"sklTitle": "Package Manager/Bundler",
 					"lists": [
-						{ "name": "NPM, " },
-						{ "name": "Gulp, " },
-						{ "name": "Grunt, " },
-						{ "name": "Bower, " },
+						{ "name": "NPM " },
+						{ "name": "Gulp " },
+						{ "name": "Grunt " },
+						{ "name": "Bower " },
 						{ "name": "Webpack" }
 					]
 				},
 				{
 					"id": 4,
 					"sklTitle": "OS",
-					"lists": [{ "name": "Linux, " }, { "name": "Windows" }]
+					"lists": [{ "name": "Linux " }, { "name": "Windows" }]
 				},
 				{ "id": 5, "sklTitle": "Version Control", "lists": [{ "name": "Git" }] }
 			]
