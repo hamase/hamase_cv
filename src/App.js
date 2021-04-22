@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./assets/scss/index.scss";
+import "./assets/scss/infoBox.scss";
+
+//Import Components
+import LeftMenu from "./components/leftMenu";
+import InfoPage from "./components/infoPage";
+import EducationPage from "./components/educationPage";
+import WorkPage from "./components/workPage";
+import SkillPage from "./components/skillPage";
+import ProjectPage from "./components/projectPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Container fluid>
+        <Row>
+          <Col md={2} lg={2} xl={1}>
+            <LeftMenu />
+          </Col>
+          <Col md={10} lg={10} xl={11}>
+            {/* route to pages */}
+            <Switch>
+              <Route path="/" component={InfoPage} exact />
+              <Route path="/education" component={EducationPage} />
+              <Route path="/work" component={WorkPage} />
+              <Route path="/skills" component={SkillPage} />
+              <Route path="/projects" component={ProjectPage} />
+            </Switch>
+          </Col>
+        </Row>
+      </Container>
+    </BrowserRouter>
   );
 }
 
