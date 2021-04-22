@@ -1,0 +1,15 @@
+@import "./assets/style/variables.scss";
+@import "./assets/style/overide.scss";
+@import "./assets/style/infoBox.scss";
+@import "./assets/style/leftMenu.scss";
+
+body {
+  background: #ffffff;
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 100%;
+  .row {
+    height: 96vh;
+    display: flex;
+  }
+}
