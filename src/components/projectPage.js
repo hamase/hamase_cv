@@ -37,7 +37,7 @@ const ProjectPage = () => {
               >
                 <h2>
                   Zentex
-                  <a href="https://hamase.github.io/" target="_blank">
+                  <a href="https://zentex.vercel.app/" target="_blank">
                     <BiLink />
                   </a>
                 </h2>
