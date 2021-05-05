@@ -145,6 +145,11 @@
 			"id": 4,
 			"prjName": "Bidbarg",
 			"prjHref": "https://www.bidbarg.com/"
+		},
+		{
+			"id": 5,
+			"prjName": "Camfil",
+			"prjHref": "http://camfilgroup.com/"
 		}
 	]
 }
