@@ -17,55 +17,66 @@ const ProjectPage = () => {
             <h1>Projects</h1>
           </div>
           <Col className="info_box d-flex">
-            <div className="info_box-inner">
-              <Col
-                xs={12}
-                md={6}
-                className="info_box-inner-desc info_box-inner-card"
-              >
-                <h2>
-                  Thirdad
-                  <a href="https://www.3rdad.com/" target="_blank">
-                    <BiLink />
-                  </a>
-                </h2>
-              </Col>
-              <Col
-                xs={12}
-                md={6}
-                className="info_box-inner-desc info_box-inner-card"
-              >
-                <h2>
-                  Zentex
-                  <a href="https://zentex.vercel.app/" target="_blank">
-                    <BiLink />
-                  </a>
-                </h2>
-              </Col>
-              <Col
-                xs={12}
-                md={6}
-                className="info_box-inner-desc info_box-inner-card"
-              >
-                <h2>
-                  Furniture site
-                  <a href="https://furniture-web.vercel.app/" target="_blank">
-                    <BiLink />
-                  </a>
-                </h2>
-              </Col>
-              <Col
-                xs={12}
-                md={6}
-                className="info_box-inner-desc info_box-inner-card"
-              >
-                <h2>
-                  Bidbarg
-                  <a href="https://www.bidbarg.com/" target="_blank">
-                    <BiLink />
-                  </a>
-                </h2>
-              </Col>
+            <div className="info_box-inner flex-column project-box">
+              <Row>
+                <Col
+                  xs={12}
+                  className="info_box-inner-desc info_box-inner-card"
+                >
+                  <h2>
+                    Thirdad
+                    <a href="https://www.3rdad.com/" target="_blank">
+                      <BiLink />
+                    </a>
+                  </h2>
+                </Col>
+                <Col
+                  xs={12}
+                  className="info_box-inner-desc info_box-inner-card"
+                >
+                  <h2>
+                    Zentex
+                    <a href="https://zentex.vercel.app/" target="_blank">
+                      <BiLink />
+                    </a>
+                  </h2>
+                </Col>
+                <Col
+                  xs={12}
+                  className="info_box-inner-desc info_box-inner-card"
+                >
+                  <h2>
+                    Furniture site
+                    <a href="https://furniture-web.vercel.app/" target="_blank">
+                      <BiLink />
+                    </a>
+                  </h2>
+                </Col>
+              </Row>
+              <Row>
+                <Col
+                  xs={12}
+                  className="info_box-inner-desc info_box-inner-card"
+                >
+                  <h2>
+                    Bidbarg
+                    <a href="https://www.bidbarg.com/" target="_blank">
+                      <BiLink />
+                    </a>
+                  </h2>
+                </Col>
+                <Col
+                  xs={12}
+                  className="info_box-inner-desc info_box-inner-card"
+                >
+                  <h2>
+                    Camfil
+                    <a href="http://camfilgroup.com/" target="_blank">
+                      <BiLink />
+                    </a>
+                  </h2>
+                </Col>
+              </Row>
             </div>
           </Col>
         </Col>

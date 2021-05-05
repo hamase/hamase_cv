@@ -51,9 +51,49 @@
       flex-wrap: wrap;
       align-content: center;
       width: 100%;
+
+      &.project-box {
+        justify-content: center;
+        .row {
+          height: auto;
+          display: grid;
+          grid-template-columns: repeat(12, 1fr);
+          width: 100%;
+
+          div:nth-child(1) {
+            grid-column: 1/4;
+          }
+          div:nth-child(2) {
+            grid-column: 5/8;
+          }
+          div:nth-child(3) {
+            grid-column: 9/12;
+          }
+
+          @media screen and (max-width: $mini_device) {
+            width: auto;
+            display: flex;
+          }
+
+          @media screen and (min-width: $tablet_device_low) and (max-width: $tablet_device_upper) {
+            width: auto;
+            div:nth-child(1) {
+              grid-column: 1/6;
+            }
+            div:nth-child(2) {
+              grid-column: 7/13;
+            }
+            div:nth-child(3) {
+              grid-column: 1/7;
+            }
+          }
+        }
+      }
+
       @media screen and (max-width: $mini_device) {
         display: block;
       }
+
       &-card {
         background: $light_purple_card;
         padding: 25px;
